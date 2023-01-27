@@ -10,7 +10,7 @@ const textArea= document.querySelector(".text-area");
 const mensaje= document.querySelector(".mensaje");
 
 function encriptador(Encriptado){
-    let Codigo= [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]]
+    let Codigo= [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]]
     Encriptado = Encriptado.toLowerCase()
     for (let i=0; i<Codigo.length; i++){
         if(Encriptado.includes(Codigo[i][0])){
@@ -20,7 +20,7 @@ function encriptador(Encriptado){
     return Encriptado
 }
 function desencriptador(Desencriptado){
-    let Codigo= [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]]
+    let Codigo= [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]]
     Desencriptado = Desencriptado.toLowerCase()
     for (let i=0; i<Codigo.length; i++){
         if(Desencriptado.includes(Codigo[i][1])){
