@@ -1,0 +1,142 @@
+*{
+    background: #ABB2B9;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #34495E;
+}
+.logo{
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 5%;
+}
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+.text-area{
+    height: 350px;
+    border: none;
+    color: #34495E;
+    margin-top: 70px;
+    text-transform: lowercase;
+}
+::placeholder{color: #34495E;}
+    .text-area:focus{
+        outline: none;
+    }
+.area-mensaje{
+    width: 200px;
+    height: 350px;
+}
+.mensaje{
+    background: #CACFD2;
+    background-image: url(imagenes/Binary\ code-pana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    border: none;
+    border-radius: 24px;
+    color: #34495E;
+    margin-left: 100px;
+    padding-left: 20px;
+    margin-top: 20px;
+    position:absolute;
+    padding: 30px;
+    font-size: 28px;
+    box-shadow: 10px 15px 10px #17202A;
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.encriptar{
+    background: #17202A;
+    border:1px solid #17202A;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-weight: bold;
+    transition: 1s all;
+}
+.encriptar:hover{
+    transform: scale(1.15);
+}
+.desencriptar{
+    background: #85929E;
+    border: 1px solid #85929E;
+    border-radius: 24px;
+    color: #17202A;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-weight: bold;
+    transition: 1s all;
+}
+.desencriptar:hover{
+    transform: scale(1.15);
+}
+.copiar{
+    background: #BFC9CA;
+    border: 1px solid #BFC9CA;
+    border-radius: 24px;
+    color: #17202A;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position:absolute;
+    width: 366px;
+    transition: 0.5s all;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.copiar:hover{
+    background: #17202A;
+    border:1px solid #17202A;
+    color: white;
+}
+.information{
+    color: #34495E;
+    font-size: 18px;
+}
+.information::before{
+    content: "🛈 ";
+    font-size: 20px;
+}
+@media screen and (max-width:480px){
+    *{
+        font-weight: auto;
+        font-size: auto;
+        line-height: 100%;
+    }
+    main{
+        display: block;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .botones,.mensaje,.copiar{
+        display: block;
+        text-align: center;
+    }
+    .logo{
+        width: 10%;
+    }
+    .text-area,main,.mensaje{
+        width: auto;
+        height: auto;
+        position: static;
+    }
+    .mensaje{
+        margin-left: 10px;
+        position: relative;
+    }
+}
