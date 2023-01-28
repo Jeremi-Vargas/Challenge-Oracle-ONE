@@ -1,15 +1,24 @@
 *{
-    background: #ABB2B9;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
     color: #34495E;
 }
+body{
+    background: linear-gradient(#ABB2B9,black);
+}
 .logo{
     padding-top: 30px;
     padding-left: 10px;
     width: 5%;
+}
+.titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 2em;
+    font-weight: bold;
 }
 main{
     display: flex;
@@ -17,21 +26,25 @@ main{
     margin-left: 110px;
 }
 .text-area{
-    height: 350px;
+    height: 9em;
     border: none;
-    color: #34495E;
-    margin-top: 70px;
+    color: #BFC9CA;
+    margin-top: 1em;
     text-transform: lowercase;
+    border: 4px dashed #BFC9CA;
+    background-color: transparent;
+    border-radius: 24px;
+    padding: 1em;
 }
-::placeholder{color: #34495E;}
+::placeholder{color: #BFC9CA;}
     .text-area:focus{
         outline: none;
     }
 .area-mensaje{
-    width: 200px;
-    height: 350px;
+    height: 15em;
 }
 .mensaje{
+    height: 16em;
     background: #CACFD2;
     background-image: url(imagenes/Binary\ code-pana.png);
     background-repeat: no-repeat;
@@ -42,7 +55,7 @@ main{
     color: #34495E;
     margin-left: 100px;
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 1em;
     position:absolute;
     padding: 30px;
     font-size: 28px;
@@ -53,7 +66,7 @@ main{
 }
 .botones{
     display: flex;
-    margin-top: 18px;
+    margin-top: 0.35em;
 }
 .encriptar{
     background: #17202A;
@@ -92,7 +105,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 402px;
+    margin-top: 14.4em;
     position:absolute;
     width: 366px;
     transition: 0.5s all;
@@ -105,12 +118,27 @@ main{
     color: white;
 }
 .information{
-    color: #34495E;
-    font-size: 18px;
+    color: #BFC9CA;
+    font-size: 0.5em;
 }
 .information::before{
     content: "🛈 ";
-    font-size: 20px;
+    font-size: 1em;
+}
+footer{
+    padding-top: 1.5em;
+    height: 2.6em;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.diseñado{
+    color: #85929E;
+    display: inline-block;
+    vertical-align:top;
+    font-weight: bold;
+}
+.logos{
+    width: 1em;
 }
 @media screen and (max-width:480px){
     *{
