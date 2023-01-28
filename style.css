@@ -145,6 +145,9 @@ footer{
 .logos{
     width: 1em;
 }
+
+/*Responsivo para celulares*/
+
 @media screen and (max-width:480px){
     *{
         font-weight:auto;
@@ -210,7 +213,9 @@ footer{
         height: 50%;
     }
 }
+
 /*Responsivo para tablets*/
+
 @media screen and (max-width:800px){
     *{
         font-weight:auto;
