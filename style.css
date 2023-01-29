@@ -202,7 +202,7 @@ footer{
     .mensaje{
         margin-left: 2%;
         position: relative;
-        height: 10em;
+        height: 60%;
         width: 70%;
     }
     footer{
@@ -277,17 +277,14 @@ footer{
     .mensaje{
         margin-left: 2%;
         position: relative;
-        height: 10em;
-        width: 80%;
+        height: 60%;
+        width: 78%;
+        font-size: 1em;
     }
     footer{
         margin-left: 6%;
         text-align: left;
         font-size:small;
-        margin-top: 10%;
-        padding-top: 30%;
-        margin-bottom: 5%;
-        height: 50%;
     }
 }
 @media screen and (max-width:940px){
