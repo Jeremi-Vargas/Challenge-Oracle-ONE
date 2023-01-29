@@ -17,6 +17,7 @@ header{
     width: 4%;
 }
 .titulo{
+    color: #17202A;
     font-family: 'Josefin Sans', sans-serif;
     display: inline-block;
     margin-left: 1em;
@@ -57,7 +58,7 @@ main{
     background-size:contain;
     border: none;
     border-radius: 24px;
-    color: #34495E;
+    color: #17202A;
     margin-left: 100px;
     padding-left: 20px;
     margin-top: 1em;
